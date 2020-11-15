@@ -1,0 +1,14 @@
+#N 6      ; number of vertices n in graph (from 1 to n)
+#D 4.5              ; Deadline is at time 4.5
+#V1                  ; Vertex 1, nothing of interest
+#V2                ; Vertex 2, initially contains 1 person to be rescued
+#V3 P6                 ; Vertex 3,
+#V4 P2
+#V5
+#V6 P2              ; Vertex 4, initially contains 2 persons to be rescued
+
+#E1 1 2 W3                 ; Edge 1 from vertex 1 to vertex 2, weight 1
+#E2 1 4 W2                 ; Edge 2 from vertex 3 to vertex 4, weight 1
+#E3 1 5 W1                 ; Edge 3 from vertex 2 to vertex 3, weight 1
+#E4 2 3 W4                 ; Edge 4 from vertex 1 to vertex 3, weight 4
+#E5 5 6 W5                 ; Edge 5 from vertex 2 to vertex 4, weight 5
